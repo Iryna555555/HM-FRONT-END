@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: left;
+    font-style: oblique;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+h3 {
+    text-align: left;
+    font-style: oblique;
+    line-height: 50px;
+    text-align: center;
+
+}
+
+div {
+    text-align: center;
+}
+
+
+
+
+pre {
+    background-color: #34495E;
+    border-radius: 20px;
+    padding: 21px;
+    width: 400px;
+    margin: 0 auto;
+    font-style: italic;
+}
+
+.fb {
+    height: 228px;
+}
+
