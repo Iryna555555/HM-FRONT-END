@@ -1,0 +1,71 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Доллар: $ (Unicode: U+0024)
+Евро: € (Unicode: U+20AC)
+Фунт стерлинга: £ (Unicode: U+00A3)
+Иена: ¥ (Unicode: U+00A5)
+Лари: ლ (Unicode: U+20BE) */
+
+tr {
+    font-size: 22px ;
+
+}
+
+.top {
+    font-size: 30px;
+}
+
+li {
+    /* em = 16px
+    0.5*28px
+     font-size: 0.5em; */
+    font-size: 1rem;
+    
+}
+
+img {
+    text-align: center;
+}
+
+
+
+ul {
+    padding-left: 40px;
+}
+
+.EUR_ul {
+    
+    font-size: 60px;
+}
+
+/* by default font-size = 16px */
+
+html {
+    font-size: 16px;
+}
+/*  rem = root em (html tag font-size */
+
+
+table ,
+td,
+tr ,
+th {
+    border: 2px solid black;
+    height: 40px;
+    width: 600px;
+}
+
+table {
+    height: 350px;
+    width: 470px;
+}
+
+img {
+    height: 30px;
+    width: 50px;
+   
+}
