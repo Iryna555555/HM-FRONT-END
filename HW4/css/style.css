@@ -1,0 +1,49 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  .field {
+    width: 300px;
+    height: 300px;
+    margin: 80px;
+    position: absolute;
+  }
+  
+  .square {
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+  }
+  
+  .field .square:first-child {
+    background-color: red;
+    top: 0;
+    left: 0;
+    z-index: 1;
+  }
+  
+  .field .square:nth-child(2) {
+    background-color: green;
+    top:50px;
+    left: 50px;
+    z-index: 3;
+  }
+  
+  .field .square:nth-child(3) {
+    background-color: blue;
+    right: 0;
+    bottom: 0;
+    z-index: 2;
+  }
+  
+  .green{
+      transition: all 0.8s linear;
+  }
+  
+   .green:hover{
+      transform: scale(1.5) rotate(45deg);
+   }
